@@ -1,0 +1,16 @@
+projet-vente-location/
+├── index.html
+├── vehicules.html
+├── location.html
+├── residences.html
+├── reservation.html
+├── admin.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── database.js
+│   ├── main.js
+│   ├── admin.js
+│   └── reservation.js
+└── data/
+    └── database.json 

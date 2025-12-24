@@ -1,0 +1,119 @@
+{
+  "vehicules": [
+    {
+      "id": 1,
+      "titre": "Toyota RAV4 2023",
+      "categorie": "vente",
+      "prix": 32000,
+      "image": "images/télécharger.webp",
+      "description": "SUV familial en excellent état, parfait pour les familles. Faible consommation, intérieur spacieux.",
+      "caracteristiques": ["4x4", "Automatique", "Climatisation", "Camera de recul", "GPS"],
+      "disponible": true,
+      "type": "SUV",
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "titre": "BMW Série 3",
+      "categorie": "vente",
+      "prix": 45000,
+      "image": "images/télécharger.webp",
+      "description": "Berline allemande de luxe, performances exceptionnelles. Intérieur cuir, équipements haut de gamme.",
+      "caracteristiques": ["Berline", "Automatique", "Toit ouvrant", "Cuir", "Système audio premium"],
+      "disponible": true,
+      "type": "Berline",
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "titre": "Peugeot 208",
+      "categorie": "vente",
+      "prix": 22000,
+      "image": "images/télécharger.webp",
+      "description": "Citadine économique et moderne. Idéale pour la ville avec une consommation réduite.",
+      "caracteristiques": ["Compacte", "Manuelle", "Climatisation", "Connectivité Bluetooth"],
+      "disponible": true,
+      "type": "Compacte",
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "titre": "Mercedes Classe A",
+      "categorie": "location",
+      "prix": 450,
+      "image": "images/télécharger.webp",
+      "description": "Location mensuelle avec option d'achat. Confort et technologie de pointe.",
+      "caracteristiques": ["Berline", "Automatique", "Toit ouvrant", "Écran tactile", "Assistance conduite"],
+      "disponible": true,
+      "type": "Berline",
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "titre": "Renault Kangoo",
+      "categorie": "location",
+      "prix": 280,
+      "image": "images/télécharger.webp",
+      "description": "Utilitaire polyvalent pour professionnels. Grand volume de chargement.",
+      "caracteristiques": ["Utilitaire", "Manuelle", "Climatisation", "Grand volume", "Sièges rabattables"],
+      "disponible": true,
+      "type": "Utilitaire",
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    }
+  ],
+  "residences": [
+    {
+      "id": 6,
+      "titre": "Appartement Moderne 3 pièces",
+      "categorie": "location",
+      "prix": 850,
+      "image": "images/appartement-paris.jpg",
+      "description": "Appartement neuf au cœur de Paris, proche de tous les commerces et transports.",
+      "caracteristiques": ["80m²", "3 chambres", "Balcon", "Ascenseur", "Cuisine équipée"],
+      "disponible": true,
+      "localisation": "Paris 15ème",
+      "rooms": 3,
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "titre": "Studio étudiant Lyon",
+      "categorie": "location",
+      "prix": 450,
+      "image": "images/studio-lyon.jpg",
+      "description": "Studio meublé idéal pour étudiant, proche universités et métro.",
+      "caracteristiques": ["25m²", "Meublé", "Internet", "Lave-linge", "Proche transports"],
+      "disponible": true,
+      "localisation": "Lyon Centre",
+      "rooms": 1,
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "titre": "Maison avec jardin",
+      "categorie": "location",
+      "prix": 1200,
+      "image": "images/maison-jardin.jpg",
+      "description": "Maison familiale avec grand jardin, quartier calme, proche écoles.",
+      "caracteristiques": ["120m²", "4 chambres", "Jardin", "Garage", "Terrasse"],
+      "disponible": true,
+      "localisation": "Bordeaux",
+      "rooms": 4,
+      "createdAt": "2024-01-01T10:00:00.000Z"
+    }
+  ],
+  "reservations": [],
+  "settings": {
+    "name": "GRÂCE AUTO SERVICE-CI-BKT",
+    "description": "Vente • Location • Assurance",
+    "contactPhone": "+225 0748735115",
+    "otherPhones": ["+225 0141941694", "+225 0544604246"],
+    "contactEmail": "graceautoservice88@gmail.com",
+    "businessHours": {
+      "weekday": "Lun-Ven: 8h-18h",
+      "saturday": "Samedi: 8h-13h",
+      "sunday": "Dimanche: Fermé"
+    }
+  },
+  "lastUpdate": "2024-01-01T10:00:00.000Z"
+}
